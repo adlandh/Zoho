@@ -1,4 +1,4 @@
-[![](https://godoc.org/github.com/schmorrison/Zoho/expense?status.svg)](http://godoc.org/github.com/schmorrison/Zoho/expense)
+[![](https://godoc.org/github.com/adlandh/Zoho/expense?status.svg)](http://godoc.org/github.com/adlandh/Zoho/expense)
 # Zoho EXPENSE V1 API
 
 NOTE: Not finished and probably unstable. PRs welcome.
@@ -12,7 +12,7 @@ Note: These APIs result entire API response in JSON format. It is expected that 
     import (
         "log"
         "fmt"
-        "github.com/schmorrison/Zoho"
+        "github.com/adlandh/Zoho"
     )
 
     func main() {

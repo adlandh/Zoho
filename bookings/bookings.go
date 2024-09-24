@@ -5,7 +5,7 @@ package bookings
 import (
 	"math/rand"
 
-	zoho "github.com/schmorrison/Zoho"
+	zoho "github.com/adlandh/Zoho"
 )
 
 type BookingsModule = string

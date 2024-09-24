@@ -3,7 +3,7 @@ package crm
 import (
 	"encoding/json"
 
-	zoho "github.com/schmorrison/Zoho"
+	zoho "github.com/adlandh/Zoho"
 )
 
 type Error struct {

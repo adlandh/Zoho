@@ -3,7 +3,7 @@ package shifts
 import (
 	"fmt"
 
-	zoho "github.com/schmorrison/Zoho"
+	zoho "github.com/adlandh/Zoho"
 )
 
 // GetAllShifts returns a list of all shifts

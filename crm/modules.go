@@ -3,7 +3,7 @@ package crm
 import (
 	"fmt"
 
-	zoho "github.com/schmorrison/Zoho"
+	zoho "github.com/adlandh/Zoho"
 )
 
 // GetModules returns the list of modules available in the CRM account

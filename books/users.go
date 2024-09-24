@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	zoho "github.com/schmorrison/Zoho"
+	zoho "github.com/adlandh/Zoho"
 )
 
 // GetCurrentUser will return the currently authenticated users

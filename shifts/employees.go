@@ -3,7 +3,7 @@ package shifts
 import (
 	"fmt"
 
-	zoho "github.com/schmorrison/Zoho"
+	zoho "github.com/adlandh/Zoho"
 )
 
 // GetAllEmployees returns a list of all employees

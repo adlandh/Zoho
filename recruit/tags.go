@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	zoho "github.com/schmorrison/Zoho"
+	zoho "github.com/adlandh/Zoho"
 )
 
 // https://www.zoho.com/recruit/developer-guide/apiv2/create-tag.html

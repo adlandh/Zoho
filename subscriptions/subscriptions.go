@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strconv"
 
-	zoho "github.com/schmorrison/Zoho"
+	zoho "github.com/adlandh/Zoho"
 )
 
 type SubscriptionStatus string

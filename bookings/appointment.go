@@ -3,7 +3,7 @@ package bookings
 import (
 	"fmt"
 
-	zoho "github.com/schmorrison/Zoho"
+	zoho "github.com/adlandh/Zoho"
 )
 
 func (c *API) GetAppointment(bookingID zoho.Parameter) (data AppointmentResponse, err error) {
@@ -142,7 +142,7 @@ type BookAppointmentData struct {
 	Customer_Details CustomerDetails `url:"customer_details,json,omitempty"` // Note the option `json` before `omitempty`, the order shouldn't matter
 }
 
-//AppointmentResponse is the data returned by GetAppointment
+// AppointmentResponse is the data returned by GetAppointment
 type AppointmentResponse struct {
 	Response struct {
 		ErrorMessage string   `json:"errormessage,omitempty"`

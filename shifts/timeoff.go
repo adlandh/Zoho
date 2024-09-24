@@ -3,7 +3,7 @@ package shifts
 import (
 	"fmt"
 
-	zoho "github.com/schmorrison/Zoho"
+	zoho "github.com/adlandh/Zoho"
 )
 
 // GetAllTimeoffRequests returns a list of all employee timeoff requests

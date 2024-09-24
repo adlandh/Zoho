@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	zoho "github.com/schmorrison/Zoho"
+	zoho "github.com/adlandh/Zoho"
 )
 
 // https://www.zoho.com/recruit/developer-guide/apiv2/search-records.html
@@ -123,10 +123,11 @@ type InsertRecordsResponse struct {
 // if you want to empty the fields contents in zoho you will need to embed the records type in a struct in your own package,
 // and override the field with a field that has a json tag that does not contain 'omitempty'.
 // eg.
-//    type struct Candidate {
-//        zohorecruit.Candidate
-//        CustomField string `json:"Custom_Field"`
-//     }
+//
+//	type struct Candidate {
+//	    zohorecruit.Candidate
+//	    CustomField string `json:"Custom_Field"`
+//	 }
 func (c *API) UpsertRecords(
 	request UpsertRecords,
 	module Module,

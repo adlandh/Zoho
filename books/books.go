@@ -4,7 +4,7 @@ import (
 	"math/rand"
 	"time"
 
-	zoho "github.com/schmorrison/Zoho"
+	zoho "github.com/adlandh/Zoho"
 )
 
 // API is used for interacting with the Zoho Books API

@@ -3,11 +3,11 @@ package invoice
 import (
 	"fmt"
 
-	zoho "github.com/schmorrison/Zoho"
+	zoho "github.com/adlandh/Zoho"
 )
 
-//https://www.zoho.com/invoice/api/v3/#Invoices_Update_an_invoice
-//func (c *API) UpdateRecurringInvoice(request interface{}, OrganizationID string, params map[string]zoho.Parameter) (data UpdateInvoiceResponse, err error) {
+// https://www.zoho.com/invoice/api/v3/#Invoices_Update_an_invoice
+// func (c *API) UpdateRecurringInvoice(request interface{}, OrganizationID string, params map[string]zoho.Parameter) (data UpdateInvoiceResponse, err error) {
 func (c *API) UpdateInvoice(
 	request interface{},
 	invoiceId string,

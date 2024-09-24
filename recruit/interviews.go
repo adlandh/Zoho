@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	zoho "github.com/schmorrison/Zoho"
+	zoho "github.com/adlandh/Zoho"
 )
 
 // GetInterviewsRecords returns a list of all records

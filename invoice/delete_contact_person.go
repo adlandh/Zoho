@@ -3,11 +3,11 @@ package invoice
 import (
 	"fmt"
 
-	zoho "github.com/schmorrison/Zoho"
+	zoho "github.com/adlandh/Zoho"
 )
 
-//https://www.zoho.com/invoice/api/v3/#Contact_Persons_Delete_a_contact_person
-//func (c *API) DeleteContactPerson(request interface{}, OrganizationID string, params map[string]zoho.Parameter) (data DeleteContactPersonResponse, err error) {
+// https://www.zoho.com/invoice/api/v3/#Contact_Persons_Delete_a_contact_person
+// func (c *API) DeleteContactPerson(request interface{}, OrganizationID string, params map[string]zoho.Parameter) (data DeleteContactPersonResponse, err error) {
 func (c *API) DeleteContactPerson(
 	contactPersonID string,
 ) (data DeleteContactPersonResponse, err error) {

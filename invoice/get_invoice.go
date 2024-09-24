@@ -3,11 +3,11 @@ package invoice
 import (
 	"fmt"
 
-	zoho "github.com/schmorrison/Zoho"
+	zoho "github.com/adlandh/Zoho"
 )
 
-//https://www.zoho.com/invoice/api/v3/#Invoices_Get_an_invoice
-//func (c *API) GetInvoice(request interface{}, OrganizationID string, params map[string]zoho.Parameter) (data GetInvoiceResponse, err error) {
+// https://www.zoho.com/invoice/api/v3/#Invoices_Get_an_invoice
+// func (c *API) GetInvoice(request interface{}, OrganizationID string, params map[string]zoho.Parameter) (data GetInvoiceResponse, err error) {
 func (c *API) GetInvoice(invoiceId string) (data GetInvoiceResponse, err error) {
 
 	endpoint := zoho.Endpoint{
